@@ -1,0 +1,26 @@
+{
+    "apples": [
+        {
+            "x": 400,
+            "y": 200
+        }
+    ],
+    "brocoli": [
+        {
+            "x": 400,
+            "y": 200
+        }
+    ],
+    "platform": [
+        {
+            "x": 600,
+            "y": 1200,
+            "platformType": "tile-2x1"
+        },
+        {
+            "x": 1200,
+            "y": 1000,
+            "platformType": "tile-4x1"
+        }
+    ]
+}
