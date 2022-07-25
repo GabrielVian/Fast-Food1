@@ -35,9 +35,9 @@ class MenuScreen extends Phaser.Scene{
         this.add.image(width*0.5, height*0.5, 'fundo1').setScrollFactor(0);
         
         this.soundTrack.play();
-        createAligned(this, 200, 'fundo2', 0.2)
-        createAligned(this, 500, 'fundo3', 0.33)
-        createAligned(this, 1000, 'fundo4', 0.66)
+        createAligned(this, 2, 'fundo2', 0.2)
+        createAligned(this, 5, 'fundo3', 0.33)
+        createAligned(this, 10, 'fundo4', 0.66)
         this.add.image(width*0.5, height*0.4, 'logo').setScrollFactor(0).setScale(0.5, 0.5);
         const startButton = this.add.image(width*0.5, height*0.7, 'startButton').setScrollFactor(0);
         startButton.setInteractive();
